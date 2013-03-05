@@ -14,7 +14,7 @@ compiler options of your project as shown below
 
 ```clj
 	:your-build-name {:source-paths ["src/cljs"]
-		              :compiler {:output-to "resources/public/js/modern.js"
+		              :compiler {:output-to "resources/public/js/your_project.js"
                                  :optimizations :advanced
 								 :externs ["externs/d3_externs_min.js"]}}
 ```
