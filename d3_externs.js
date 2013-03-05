@@ -28,7 +28,7 @@ var d3 = {
     "median": function () {},
     "min": function () {},
     "max": function () {},
-    "enter": function () {};
+    "enter": function () {},
     "extent": function () {},
     "random": {
         "normal": function () {},
@@ -341,6 +341,7 @@ d3.selection.prototype = function () {};
 d3.select.prototype = function () {};
 d3.selectAll.prototype = function () {};
 d3.selection.prototype = {
+    "enter": function () {},
     "select": function () {},
     "selectAll": function () {},
     "attr": function () {},
@@ -650,7 +651,7 @@ d3.layout.pie.prototype = {
     "sort": function () {},
     "value": function () {},
     "startAngle": function () {},
-    "endAngle": function () {},
+    "endAngle": function () {}
 };
 d3.layout.stack.prototype = function () {};
 d3.layout.stack.prototype = {
@@ -732,7 +733,7 @@ d3.geo.stream.prototype = {
 d3.geo.albersUsa.prototype = function () {};
 d3.geo.albers.prototype = function () {};
 d3.geo.albers.prototype = {
-  "parallels": function () {},
+  "parallels": function () {}
 };
 d3.geo.albers.raw.prototype = function () {};
 d3.geo.azimuthalEqualArea.prototype = function () {};
