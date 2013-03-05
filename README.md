@@ -3,8 +3,7 @@ d3-externs
 
 Full (maybe almost full) ClojureScript extern file for
 [Mike Bostock][1]'s great [D3][2] library. It allows to use D3 library
-under the Google Closure's advanced optimization. Let me know if I
-forget some functions.
+under the Google Closure's advanced optimization.
 
 ## Usage
 
