@@ -310,7 +310,7 @@ d3.interpolateHcl.prototype = function () {};
 d3.interpolateArray.prototype = function () {};
 d3.interpolateObject.prototype = function () {};
 d3.rgb.prototype = function () {};
-d3.rbg.prototype = {
+d3.rgb.prototype = {
     "brighter": function () {},
     "darker": function () {},
     "hsl": function () {},
@@ -530,9 +530,9 @@ d3.svg.line.prototype = {
     "tension": function () {},
     "defined": function () {},
     "radius": function () {},
-    "angle": function () {}
+    "angle": function () {},
+    "radial": function () {}
 };
-d3.svg.line.radial.prototype = function () {};
 d3.svg.area.prototype = function () {};
 d3.svg.area.prototype = {
     "x": function () {},
@@ -550,9 +550,8 @@ d3.svg.area.prototype = {
     "angle": function () {},
     "startAngle": function () {},
     "endAngle": function () {},
-    "defined": function () {}
+    "radial": function () {}
 };
-d3.svg.area.radial.prototype = function () {};
 d3.svg.chord.prototype = function () {};
 d3.svg.chord.prototype = {
     "radius": function () {},
@@ -733,7 +732,8 @@ d3.geo.stream.prototype = {
 d3.geo.albersUsa.prototype = function () {};
 d3.geo.albers.prototype = function () {};
 d3.geo.albers.prototype = {
-  "parallels": function () {}
+  "parallels": function () {},
+  "raw": function () {}
 };
 d3.geo.albers.raw.prototype = function () {};
 d3.geo.azimuthalEqualArea.prototype = function () {};
@@ -746,7 +746,8 @@ d3.geo.circle.prototype = function () {};
 d3.geo.circle.prototype = {
     "origin": function () {},
     "angle": function () {},
-    "precision": function () {}
+    "precision": function () {},
+    "raw": function () {}
 };
 d3.geo.equirectangular.prototype = function () {};
 d3.geo.equirectangular.raw.prototype = function () {};
@@ -759,7 +760,8 @@ d3.geo.greatArc.prototype = {
     "distance": function () {},
     "source": function () {},
     "target": function () {},
-    "precision": function () {}
+    "precision": function () {},
+    "raw": function () {}
 };
 d3.geo.mercator.prototype = function () {};
 d3.geo.mercator.raw.prototype = function () {};
@@ -844,4 +846,4 @@ d3.time.years.prototype = function () {};
 d3.time.scale.prototype = function () {};
 
 // 
-// d3_externs.js ends here 
+// d3_externs.js ends here
