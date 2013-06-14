@@ -789,8 +789,8 @@ d3.geo.projection.prototype = {
     "stream": function () {}
 };
 d3.geo.projectionMutator.prototype = function () {};
-d3.geo.stereographic.prototype = function () {}
-d3.geo.stereographic.raw.prototype = function () {}
+d3.geo.stereographic.prototype = function () {};
+d3.geo.stereographic.raw.prototype = function () {};
 d3.geom.hull.prototype = function () {};
 d3.geom.polygon.prototype = function () {};
 d3.geom.polygon.prototype = {
